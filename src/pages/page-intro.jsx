@@ -34,7 +34,7 @@ function Intro() {
               </a>
               <p>Aprende cómo acceder a la plataforma con tu correo institucional y conoce los elementos que conforman la
               plataforma.</p>
-              <a href="/docs/category/plataforma-gedux.html" className="btn-intro">
+              <a href="/docs/category/control-de-clase.html" className="btn-intro">
                 <b><strong>📒 Control de clase</strong></b>
               </a>
               <p>Conoce los procesos de la plataforma y gestiona mejor tus clases con nuestros tips.</p>
