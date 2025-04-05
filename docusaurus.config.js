@@ -40,7 +40,7 @@ const config = {
     ],
   ],
 
-  plugins: [
+  /* plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -50,7 +50,7 @@ const config = {
         sidebarPath: require.resolve('./mySidebars.js'),
       },
     ],
-  ],
+  ], */
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
