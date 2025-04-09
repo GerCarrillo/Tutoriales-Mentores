@@ -37,15 +37,15 @@ function Intro() {
               <a href="/docs/category/control-de-clase.html" className="btn-intro">
                 <b><strong>📒 Control de clase</strong></b>
               </a>
-              <p>Conoce los procesos de la plataforma y gestiona mejor tus clases con nuestros tips.</p>
+              <p>Gestiona mejor tus clases con nuestros tips y recomendaciones.</p>
               <a href="/docs/category/plataforma-neuuni.html" className="btn-intro">
                 <b>📓 NEUUNI</b>
               </a>
-              <p>Navega por el entorno virtual y aprende a usar la plataforma.</p>
+              <p>Conoce el entorno virtual y los procesos de la plataforma.</p>
               <a href="/docs/category/google-meet.html" className="btn-intro">
                 <b><strong>🎦 Google Meet</strong></b>
               </a>
-              <p>Conoce ayudas y tips para que tus clases sincrónicas sean todo un éxito.</p>
+              <p>Descubre ayudas y tips para que tus clases sincrónicas sean todo un éxito.</p>
             </div>
             <p> </p>
             <p className="centered-paragraph"><h2 style={{ color: '#0047bb' }}>¡Éxito en tu camino académico! 📚🎓✨</h2></p>
