@@ -52,6 +52,16 @@ const config = {
     ],
   ], */
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-7G7NHQBYKM', // Aquí va tu ID de medición de GA4
+        anonymizeIP: true, // Opcional: para anonimizar las IPs de los usuarios
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -120,6 +130,28 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+        appId: 'R1Q0FCBJ5W',
+        apiKey: 'a05dbad0b08785b5ebca48cb6cdc5366', // Esta es tu clave de búsqueda (Search-Only API Key)
+        indexName: 'mentores-unineuuni', // <-- ¡REEMPLAZA ESTO CON EL NOMBRE DE TU ÍNDICE!
+
+        // Opcional: Esto es para depuración o si quieres una personalización avanzada
+        contextualSearch: true,
+
+        // Opcional: Cómo se muestran los resultados de búsqueda
+        // externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Opcional: Parámetros de búsqueda adicionales (para filtros, etc.)
+        searchParameters: {},
+
+        // Opcional: Ruta para el CSS de DocSearch (ya viene con el tema)
+        // Esto solo es necesario si no usas el preset classic o si quieres una ruta diferente
+        // You can use a custom CSS file to override the default DocSearch CSS (might be useful for dark mode adjustments)
+        // searchPagePath: 'search',
+
+        // Opcional: Idioma del buscador (si tu sitio no es inglés)
+        lang: 'es', // Por ejemplo, para español
       },
     }),
 };
